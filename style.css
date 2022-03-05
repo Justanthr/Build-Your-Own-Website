@@ -31,7 +31,7 @@ main {
   position: relative;
   top: 5vh;
   width: 100%;
-  height: 38vh;
+  height: 40vh;
   /* Styling */
   background-color: rgb(75, 96, 201);
 }
@@ -39,28 +39,18 @@ main {
 main .logo-nav {
   /* sizing .logo-nav */
   height: 100%;
+  display: flex;
 }
 
 /* Logo img*/
 .logo {
   /* changing logo size */
-  max-width: 3%;
+  max-width: 10%;
+  max-height: 10%;
   /* changing logo position */
   position: relative;
   left: 3vh;
   top: 1vh;
-}
-
-.nav-btn {
-  /* changing placement of nav-btn*/
-  position: absolute;
-  right: 3vh;
-  top: 1vh;
-  /* styling nav-btn*/
-  background-color: rgb(75, 96, 201);
-  border: none;
-  /* sizing nav-btn */
-  font-size: large;
 }
 
 /* styling nav */
@@ -77,5 +67,33 @@ ul {
 }
 
 li .sign-in {
-  border: 1px solid black;
+  /* sizing sign-in btn */
+  height: 4vh;
+  width: 8vw;
+  font-size: large;
+  /* positioning sign-in btn */
+  position: relative;
+  bottom: 11px;
+  /* styling sign-in btn */
+  background-color: rgb(75, 96, 201);
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+/*other h3 */
+main h3 {
+  /* positioning */
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+  /* sizing */
+  font-size: 3em;
+}
+
+/* other p */
+main p {
+  /* positioning */
+  position: relative;
+  top: 6vh;
+  left: 20vw;
 }
