@@ -1,0 +1,26 @@
+body {
+  /* changing font */
+  font-family: "Roboto", sans-serif;
+}
+/* styling top banner */
+.top-banner {
+  /* setting position for no gap at the top */
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  /* setting the design */
+  text-align: center;
+  padding: 2vh;
+  background-color: purple;
+  color: white;
+}
+
+.top-banner a {
+  text-decoration: none;
+}
+
+.top-banner span {
+  padding: 1px 5px;
+  background-color: lime;
+  border-radius: 5%;
+}
