@@ -259,3 +259,12 @@ section {
   border: 3px solid rgb(75, 96, 201);
   border-radius: 10%;
 }
+/* posistioning duped website */
+.website {
+  position: relative;
+  top: 65vh;
+  width: 98%;
+  /* styling */
+  padding: 1vh;
+  border: 3px solid orange;
+}
